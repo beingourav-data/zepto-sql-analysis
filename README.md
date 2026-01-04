@@ -7,6 +7,7 @@ The project is designed to show how a data analyst actually works — starting f
 This project start raw data, then understanding it, then cleaning it, and finally answering business questions using SQL.
 
 
+
 **GOAL OF THIS PROJECT**
 
 - Create and understand a messy e-commerce inventory table
@@ -16,6 +17,7 @@ This project start raw data, then understanding it, then cleaning it, and finall
 - Cleaning the data by handling null values, removing incorrect records, and converting prices from paise to rupees
 
 - Writing business-focused SQL queries to analyze pricing, inventory levels, stock availability, revenue, and related insights
+
 
 
 **ABOUT DATASET**
@@ -41,6 +43,7 @@ weightInGms – product weight in grams
 outOfStock – shows whether the product is out of stock
 
 quantity – number of units per package
+
 
 **PROJECT STEPS**
 1. Database & Table Creation
