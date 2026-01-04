@@ -60,7 +60,7 @@ GROUP BY name
 HAVING count(sku_id) > 1
 ORDER BY count(sku_id) DESC;
 
-----data cleaning
+----DATA CLEANING
 
 ----products with price = 0
 SELECT * FROM zepto
@@ -76,7 +76,7 @@ discountedSellingPrice = discountedSellingPrice / 100.0;
 
 SELECT mrp, discountedSellingPrice FROM zepto;
 
-----data analysis
+----DATA ANALYSIS
 
 ---- Q1. Find the top 10 best-value products based on the discount percentage.
 SELECT DISTINCT name, mrp, discountPercent
