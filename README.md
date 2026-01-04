@@ -8,6 +8,7 @@ This project start raw data, then understanding it, then cleaning it, and finall
 
 
 
+
 **GOAL OF THIS PROJECT**
 
 - Create and understand a messy e-commerce inventory table
@@ -17,6 +18,7 @@ This project start raw data, then understanding it, then cleaning it, and finall
 - Cleaning the data by handling null values, removing incorrect records, and converting prices from paise to rupees
 
 - Writing business-focused SQL queries to analyze pricing, inventory levels, stock availability, revenue, and related insights
+
 
 
 
@@ -45,17 +47,18 @@ outOfStock – shows whether the product is out of stock
 quantity – number of units per package
 
 
+
 **PROJECT STEPS**
-1. Database & Table Creation
+1. Database & Table Creation-
 
 A PostgreSQL table is created with proper data types to store product data.
 
-2. Data Import
+2. Data Import-
 
 The dataset was imported into PostgreSQL using the Import/Export option available in pgAdmin.
 During import, encoding issues were fixed by saving the file in UTF-8 format.
 
-3. Data Exploration (EDA)
+3. Data Exploration (EDA)-
 
 Basic checks were done to understand the data:
 
@@ -71,7 +74,7 @@ in-stock vs out-of-stock products
 
 products appearing multiple times
 
-4. Data Cleaning
+4. Data Cleaning-
 
 Common data issues were fixed:
 
@@ -79,7 +82,7 @@ removed rows where price values were zero
 
 converted prices from paise to rupees
 
-5. Business Analysis
+5. Business Analysis-
 
 I written SQL queries to answer questions like:-
 
