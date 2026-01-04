@@ -1,4 +1,4 @@
-**Zepto SQL Data Analysis Project**
+**ZEPTO SQL DATA ANALYSIS PROJECT**
 
 This is a hands-on SQL portfolio project based on an e-commerce inventory dataset scraped from Zepto, one of India’s popular quick-commerce platforms.
 
@@ -6,7 +6,8 @@ The project is designed to show how a data analyst actually works — starting f
 
 This project start raw data, then understanding it, then cleaning it, and finally answering business questions using SQL.
 
-**Goal of this project**
+
+**GOAL OF THIS PROJECT**
 
 - Create and understand a messy e-commerce inventory table
 
@@ -17,7 +18,7 @@ This project start raw data, then understanding it, then cleaning it, and finall
 - Writing business-focused SQL queries to analyze pricing, inventory levels, stock availability, revenue, and related insights
 
 
-**About Dataset**
+**ABOUT DATASET**
 
 Columns in the Dataset
 
@@ -41,7 +42,7 @@ outOfStock – shows whether the product is out of stock
 
 quantity – number of units per package
 
-**Project Steps**
+**PROJECT STEPS**
 1. Database & Table Creation
 
 A PostgreSQL table is created with proper data types to store product data.
